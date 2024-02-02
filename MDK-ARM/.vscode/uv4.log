@@ -1,0 +1,13 @@
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Project'
+../Src/main.c(98): error: use of undeclared identifier 'array'
+        array[byteIndex] |= (1U << bitIndex);
+        ^
+../Src/main.c(134): error: call to undeclared function 'bitFill'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+      bitFill(aTxBuffer, USART_Simulation_DAC_value++ + 1);
+      ^
+2 errors generated.
+compiling main.c...
+".\Output\Debug\Project.axf" - 2 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00
